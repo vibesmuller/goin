@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meet Anna Muller</title>
+    <style>
+        /* Basic reset and full-screen styling */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+            background: #f8f9fa;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Main container with centered content */
+        .container {
+            width: 100%;
+            max-width: 360px; /* Adjusted width for better proportions */
+            padding: 20px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Profile image of Anna */
+        .profile-image {
+            width: 100%;
+            height: auto;
+            background-image: url('anna.jpg'); /* Replace with the image of Anna Muller */
+            background-size: cover;
+            background-position: center;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* Main title */
+        h1 {
+            font-size: 22px;
+            color: #ff5a5f;
+            margin-bottom: 10px;
+        }
+
+        /* Call to action text */
+        p {
+            font-size: 14px;
+            line-height: 1.4;
+            margin-bottom: 20px;
+            color: #666;
+        }
+
+        /* Button styling for the calls to action */
+        .cta-button {
+            display: block;
+            padding: 15px 20px;
+            background-color: #ff5a5f;
+            color: #fff;
+            font-size: 16px; /* Slightly smaller font for better balance */
+            border-radius: 50px;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            width: 90%; /* Buttons are now 90% of container width */
+            margin: 10px auto;
+            box-shadow: 0px 4px 10px rgba(255, 90, 95, 0.3);
+        }
+
+        .cta-button:hover {
+            background-color: #e04a48;
+        }
+
+        /* Instagram button with distinct style */
+        .instagram-button {
+            background-color: #d62976;
+        }
+
+        .instagram-button:hover {
+            background-color: #b12565;
+        }
+
+        /* Small text description */
+        .small-text {
+            font-size: 12px;
+            color: #999;
+            margin-top: 15px;
+        }
+
+        /* Mobile responsiveness */
+        @media (min-width: 768px) {
+            .container {
+                max-width: 400px;
+            }
+
+            .profile-image {
+                height: auto;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .cta-button {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Image of Anna that can be easily changed -->
+        <div class="profile-image" style="background-image: url('anna.jpg'); height: 400px;"></div>
+
+        <h1>Meet Anna Muller!</h1>
+        <p>Anna Muller is looking for her perfect match. Don’t miss your chance to meet her! Click below to connect with her on Instagram or start chatting on the dating site now.</p>
+        
+        <!-- Buttons for Instagram and dating site -->
+		<a href="https://www3.afego.life/click?pid=38707&offer_id=25" class="cta-button">Chat with Anna Now</a>
+        <a href="https://www.instagram.com/muller.vibes" class="cta-button instagram-button">Follow Anna on Instagram</a>
+
+
+        <!-- Small text at the bottom -->
+        <p class="small-text">Don’t wait – Anna is online right now!</p>
+    </div>
+
+</body>
+</html>
